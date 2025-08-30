@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 jobs:
   deploy:
@@ -32,5 +33,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build    # <- check this matches your build output
+          publish_dir: ./build   # or ./dist if using Vite
           publish_branch: gh-pages
