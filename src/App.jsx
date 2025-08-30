@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Locationinfo from './components/LocationInfo';
+import LocationInfo from './components/LocationInfo';
 import Footer from './components/Footer';
 import MyMusic from './components/MyMusic';
 import Videos from './components/Videos';
