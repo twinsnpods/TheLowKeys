@@ -5,15 +5,7 @@ const Videos = () => {
   return (
     <div className="bg-black py-10 flex flex-col items-center text-white">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
-        <Typewriter
-          words={['Watch The Lowkeys in Action']}
-          loop={0}
-          cursor
-          cursorStyle="|"
-          typeSpeed={80}
-          deleteSpeed={50}
-          delaySpeed={1000}
-        />
+        Watch The Lowkeys in Action
       </h2>
 
       <div className="relative pb-[56.25%] w-full max-w-[800px] mb-8">
