@@ -1,18 +1,16 @@
 import React from 'react'
-import { Typewriter } from 'react-simple-typewriter'
+import Typewriter from "typewriter-effect";
 
 const Videos = () => {
   return (
     <div className="bg-black py-10 flex flex-col items-center text-white">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
         <Typewriter
-          words={['Watch The Lowkeys in Action']}
-          loop={3} // set to true for infinite loop
-          cursor
-          cursorStyle="|"
-          typeSpeed={80}
-          deleteSpeed={50}
-          delaySpeed={1000}
+          options={{
+            strings: ['Watch The Lowkeys in Action'],
+            autoStart: true,
+            loop: true,
+          }}
         />
       </h2>
 
@@ -31,3 +29,4 @@ const Videos = () => {
 }
 
 export default Videos
+
