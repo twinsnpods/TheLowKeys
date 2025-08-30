@@ -1,16 +1,18 @@
-import React from 'react'
-import Typewriter from "typewriter-effect";
+import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Videos = () => {
   return (
     <div className="bg-black py-10 flex flex-col items-center text-white">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
         <Typewriter
-          options={{
-            strings: ['Watch The Lowkeys in Action'],
-            autoStart: true,
-            loop: true,
-          }}
+          words={['Watch The Lowkeys in Action']}
+          loop={0}
+          cursor
+          cursorStyle="|"
+          typeSpeed={80}
+          deleteSpeed={50}
+          delaySpeed={1000}
         />
       </h2>
 
@@ -25,8 +27,8 @@ const Videos = () => {
         ></iframe>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Videos
+export default Videos;
 

@@ -1,16 +1,18 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 const MyMusic = () => {
   return (
-    <div className="bg-black text-white py-10 flex flex-col items-center ">
+    <div className="bg-black py-10 flex flex-col items-center text-white">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
         <Typewriter
-          options={{
-            strings: ['Listen to Lowkeys on Spotify'],
-            autoStart: true,
-            loop: true,
-          }}
+          words={['Listen to The Lowkeys Music']}
+          loop={0}
+          cursor
+          cursorStyle="|"
+          typeSpeed={80}
+          deleteSpeed={50}
+          delaySpeed={1000}
         />
       </h2>
 
