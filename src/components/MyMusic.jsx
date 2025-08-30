@@ -5,7 +5,15 @@ const MyMusic = () => {
   return (
     <div className="bg-black py-10 flex flex-col items-center text-white">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
-        Listen to The Lowkeys Music   
+        <Typewriter
+          words={['Listen to The Lowkeys Music']}
+          loop={0}
+          cursor
+          cursorStyle="|"
+          typeSpeed={80}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
       </h2>
 
       {/* Artist Embed */}
