@@ -3,7 +3,7 @@ import { FaLocationPin } from "react-icons/fa6";
 import { FaSmile } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const Locationinfo = () => {
+const LocationInfo = () => {
     return (
         <section className="relative w-full min-h-screen bg-black">
             {/* Background Image */}
@@ -36,7 +36,7 @@ const Locationinfo = () => {
     );
 };
 
-export default Locationinfo;
+export default LocationInfo;
 
 
 
