@@ -1,19 +1,17 @@
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
+import Typewriter from "typewriter-effect";
 
 const MyMusic = () => {
   return (
     <div className="bg-black text-white py-10 flex flex-col items-center ">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
         <Typewriter
-        words={['Listen to Lowkeys on Spotify']}
-        loop={3} // or true for infinite loop
-        cursor
-        cursorStyle="|"
-        typeSpeed={80}
-        deleteSpeed={50}
-        delaySpeed={1000}
-      />
+          options={{
+            strings: ['Listen to Lowkeys on Spotify'],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </h2>
 
       {/* Artist Embed */}
