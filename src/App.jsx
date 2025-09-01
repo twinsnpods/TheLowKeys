@@ -7,6 +7,10 @@ import LocationInfo from './components/LocationInfo';
 import Footer from './components/Footer';
 import MyMusic from './components/MyMusic';
 import Videos from './components/Videos';
+import Apparel from './components/Apperal';
+import GigGuide from './components/GigGuide';
+import Booking from './components/Booking';
+import SocialFeed from './components/SocialFeed';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
         <LocationInfo/>
         <MyMusic/>
         <Videos/>
+        <Apparel/>
+        <GigGuide/>
+        <Booking/>
+        <SocialFeed/>
         <Footer/>
       </div>
     </BrowserRouter>

@@ -94,7 +94,7 @@ function Footer() {
                     <div className="w-full">
                         <iframe
                             title="Google Maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.2220046859726!2d28.0339!3d-26.2041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c6e2a1f0d69%3A0x8d8e0a1f1e9b0e9a!2sJohannesburg!5e0!3m2!1sen!2sza!4v1691422980000!5m2!1sen!2sza"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28757.690316414337!2d28.39464628473574!3d-25.713981402411623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9558c1f6a5bb69%3A0x831017ba520c79a!2sMamelodi%2C%20Pretoria%2C%200122!5e0!3m2!1sen!2sza!4v1756704480719!5m2!1sen!2sza"
                             width="100%"
                             height="250"
                             style={{ border: 0 }}
@@ -102,6 +102,25 @@ function Footer() {
                             loading="lazy"
                         ></iframe>
                     </div>
+                </div>
+            </div>
+
+            {/* Copyright Section */}
+            <div className="w-full border-t border-gray-800">
+                <div className="container mx-auto px-4 py-6">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 1 }}
+                        className="text-center text-gray-400 text-sm"
+                    >
+                        <p>&copy; {new Date().getFullYear()} The LowKeys. All Rights Reserved.</p>
+                        <p className="mt-2">
+                            <span className="hover:text-amber-300 cursor-pointer">Privacy Policy</span>
+                            {' '}&bull;{' '}
+                            <span className="hover:text-amber-300 cursor-pointer">Terms of Service</span>
+                        </p>
+                    </motion.div>
                 </div>
             </div>
         </div>
