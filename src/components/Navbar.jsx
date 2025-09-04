@@ -37,7 +37,7 @@ const Navbar = () => {
             <button onClick={() => scrollToSection("Music")} className="hover:text-amber-300">Music</button>
             <button onClick={() => scrollToSection("Videos")} className="hover:text-amber-300">Videos</button>
             <button onClick={() => scrollToSection("Events")} className="hover:text-amber-300">Events</button>
-            <button onClick={() => scrollToSection("Bookings")} className="hover:text-amber-300">Bookings</button>
+            <button onClick={() => scrollToSection("Booking")} className="hover:text-amber-300">Bookings</button>
             <button onClick={() => scrollToSection("Blog")} className="hover:text-amber-300">Blog</button>
           </div>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
             <button onClick={() => scrollToSection("Music")} className="hover:text-amber-300">Music</button>
             <button onClick={() => scrollToSection("Videos")} className="hover:text-amber-300">Videos</button>
             <button onClick={() => scrollToSection("Events")} className="hover:text-amber-300">Events</button>
-            <button onClick={() => scrollToSection("Bookings")} className="hover:text-amber-300">Bookings</button>
+            <button onClick={() => scrollToSection("Booking")} className="hover:text-amber-300">Bookings</button>
             <button onClick={() => scrollToSection("Blog")} className="hover:text-amber-300">Blog</button>
             <button className="flex items-center justify-center gap-2 bg-gradient-to-r from-amber-300 to-purple-800 text-white px-4 py-2 rounded-full hover:scale-105 transition">
               Book now! <FaArrowRight />

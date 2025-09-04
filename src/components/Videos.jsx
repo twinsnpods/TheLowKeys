@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Videos = () => {
   return (
-    <div className="bg-black py-10 flex flex-col items-center text-white">
+    <div id='Videos' className="bg-black py-10 flex flex-col items-center text-white">
       <h2 className="text-3xl font-bold mb-6 hover:text-amber-300 transition-colors">
         <Typewriter
           words={['Watch The Lowkeys in Action']}

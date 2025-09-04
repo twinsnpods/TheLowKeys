@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="bg-black flex flex-col md:flex-row justify-center items-center px-8 gap-10 gap-x-30 py-10 pt-30 top-0">
+    <div id="Home" className="bg-black flex flex-col md:flex-row justify-center items-center px-8 gap-10 gap-x-30 py-10 pt-30 top-0">
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}

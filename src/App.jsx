@@ -23,8 +23,8 @@ function App() {
         <Videos/>
         <Apparel/>
         <GigGuide/>
-        <Booking/>
         <SocialFeed/>
+        <Booking/>
         <Footer/>
       </div>
     </BrowserRouter>

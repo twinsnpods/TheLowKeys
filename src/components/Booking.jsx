@@ -5,7 +5,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Booking = () => {
   return (
-    <section id="bookings" className="w-full min-h-screen bg-black py-16 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+    <section id="Booking" className="w-full min-h-screen bg-black py-16 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial={{ y: -20, opacity: 0 }}

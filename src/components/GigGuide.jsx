@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function GigGuide() {
   return (
     <div
-      id="gig-guide"
+      id="Events"
       className="bg-black text-white flex flex-col justify-center items-center gap-6 px-6 md:px-20 py-16 w-full mx-auto"
     >
       <motion.h1
