@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="The LowKeys - South African Jazz Band" />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/TheLowKeys/Logo.jpeg" />
+    <link rel="apple-touch-icon" href="/TheLowKeys/Logo.jpeg" />
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- SEO tags -->
+    <meta property="og:title" content="The LowKeys" />
+    <meta property="og:description" content="South African Jazz Band" />
+    <meta property="og:image" content="/TheLowKeys/Logo.jpeg" />
+    
+    <title>TheLowKeys</title>
+    <script type="module" crossorigin src="/TheLowKeys/assets/index-BNKavWJM.js"></script>
+    <link rel="stylesheet" crossorigin href="/TheLowKeys/assets/index-hwKZPQAz.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React entry -->
+
+    <!-- Social Media Components -->
+    <script>
+      // Load social scripts dynamically
+      const loadSocialScripts = () => {
+        const scripts = [
+          {
+            src: 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0',
+            async: true,
+            defer: true,
+            crossOrigin: 'anonymous'
+          },
+          {
+            src: 'https://platform.twitter.com/widgets.js',
+            async: true
+          },
+          {
+            src: 'https://www.instagram.com/embed.js',
+            async: true
+          },
+          {
+            src: 'https://www.tiktok.com/embed.js',
+            async: true
+          }
+        ];
+
+        scripts.forEach(scriptData => {
+          const script = document.createElement('script');
+          Object.assign(script, scriptData);
+          document.body.appendChild(script);
+        });
+      };
+
+      // Load scripts after page load
+      window.addEventListener('load', loadSocialScripts);
+    </script>
+  </body>
+</html>
